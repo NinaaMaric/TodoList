@@ -27,11 +27,10 @@ function App() {
           break;
       }
     };
-
+    
     filterHandler();
     saveLocalTodo();
   }, [todos, status]);
-
 
   //save to local storage
   const saveLocalTodo = () => {
