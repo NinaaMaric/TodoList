@@ -120,6 +120,7 @@
     cursor: pointer;
     width: 12rem;
   }
+
   /* Arrow */
   .select::after {
     content: "\25BC";
@@ -132,9 +133,9 @@
     pointer-events: none;
   }
   /* Transition */
-  /*
+  
   .select:hover::after {
     transform: scale(1.5);
   }
-  */
+  
   
